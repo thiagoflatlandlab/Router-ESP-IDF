@@ -1,0 +1,11 @@
+# Build do ESP-IDF
+build/
+
+# Configurações antigas e dependências geradas
+sdkconfig.old
+dependencies.lock
+managed_components/
+
+# Arquivos temporários de sistema operacional (boa prática)
+.DS_Store
+Thumbs.db
